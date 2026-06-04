@@ -1,0 +1,15 @@
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\bin\Debug\net8.0\AccioData29.MasterSlave.Application.deps.json
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\bin\Debug\net8.0\AccioData29.MasterSlave.Application.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\bin\Debug\net8.0\AccioData29.MasterSlave.Application.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\bin\Debug\net8.0\AccioData29.MasterSlave.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\bin\Debug\net8.0\AccioData29.MasterSlave.Domain.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.csproj.AssemblyReference.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.AssemblyInfoInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.AssemblyInfo.cs
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.csproj.CoreCompileInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.csproj.CopyComplete
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\refint\AccioData29.MasterSlave.Application.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\AccioData29.MasterSlave.Application.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Application\obj\Debug\net8.0\ref\AccioData29.MasterSlave.Application.dll

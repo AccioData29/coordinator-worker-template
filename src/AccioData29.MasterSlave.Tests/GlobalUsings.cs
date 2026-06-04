@@ -1,0 +1,10 @@
+global using Xunit;
+global using Moq;
+global using FluentAssertions;
+global using AccioData29.CoordinatorWorker.Domain.Entities;
+global using AccioData29.CoordinatorWorker.Domain.Enums;
+global using AccioData29.CoordinatorWorker.Domain.Exceptions;
+global using AccioData29.CoordinatorWorker.Application.Interfaces;
+global using AccioData29.CoordinatorWorker.Application.Services;
+global using AccioData29.CoordinatorWorker.Application.Strategies;
+global using AccioData29.CoordinatorWorker.Tests.Helpers;

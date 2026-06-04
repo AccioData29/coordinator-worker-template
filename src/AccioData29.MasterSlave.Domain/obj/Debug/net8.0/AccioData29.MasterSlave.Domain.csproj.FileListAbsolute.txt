@@ -1,0 +1,11 @@
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\bin\Debug\net8.0\AccioData29.MasterSlave.Domain.deps.json
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\bin\Debug\net8.0\AccioData29.MasterSlave.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\bin\Debug\net8.0\AccioData29.MasterSlave.Domain.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\AccioData29.MasterSlave.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\AccioData29.MasterSlave.Domain.AssemblyInfoInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\AccioData29.MasterSlave.Domain.AssemblyInfo.cs
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\AccioData29.MasterSlave.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\AccioData29.MasterSlave.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\refint\AccioData29.MasterSlave.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\AccioData29.MasterSlave.Domain.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.MasterSlave.Domain\obj\Debug\net8.0\ref\AccioData29.MasterSlave.Domain.dll

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>AccioData29.CoordinatorWorker</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>AccioData29</Authors>
+    <Description>Implementación genérica del patrón Coordinator-Worker para .NET 8. Incluye distribución Round-Robin, soporte para CancellationToken e integración con el sistema de DI de .NET.</Description>
+    <PackageTags>coordinator-worker pattern dotnet csharp parallel distributed</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="src\AccioData29.CoordinatorWorker.Domain\AccioData29.CoordinatorWorker.Domain.csproj" />
+    <ProjectReference Include="src\AccioData29.CoordinatorWorker.Application\AccioData29.CoordinatorWorker.Application.csproj" />
+  </ItemGroup>
+</Project>

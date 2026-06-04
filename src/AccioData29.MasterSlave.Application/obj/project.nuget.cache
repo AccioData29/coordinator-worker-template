@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/RFsvUS6zdnHG70blJj6J8FF1STPkIeLaAlmMZRQ03ekX7kNeikzmeKVPydrIvEF3oJ0CTiYUKCo/bWxqqfqzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jairi\\OneDrive\\Documentos\\Juliana\\BTW\\master-slave\\src\\AccioData29.MasterSlave.Application\\AccioData29.MasterSlave.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jairi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
