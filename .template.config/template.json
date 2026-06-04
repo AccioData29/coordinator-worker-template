@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "AccioData29",
+  "classifications": [ "Library", "Pattern", "Coordinator-Worker" ],
+  "identity": "AccioData29.CoordinatorWorkerTemplate",
+  "name": "Coordinator-Worker Pattern .NET 8",
+  "shortName": "coordinator-worker",
+  "description": "Implementación del patrón Coordinator-Worker para .NET 8. Incluye Domain, Application (interfaces, servicios, estrategias, DI) y Tests con xUnit + Moq + FluentAssertions.",
+  "sourceName": "AccioData29.CoordinatorWorker",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "guids": [
+    "84EEF1AA-6D84-4438-B450-70B0ECF95B69",
+    "F95388DA-760A-42DA-82C9-E19EDA5090CC",
+    "42B3B6E4-71F5-489D-8C4F-EB7928EF7930",
+    "039544D9-17B1-4B31-92D4-AC05633B414C"
+  ]
+}

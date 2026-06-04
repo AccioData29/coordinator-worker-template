@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>AccioData29.CoordinatorWorkerTemplate</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Coordinator-Worker Pattern .NET 8</Title>
+    <Authors>AccioData29</Authors>
+    <Description>dotnet new template: patrón Coordinator-Worker para .NET 8. Incluye Domain, Application con interfaces, CoordinatorService, estrategia Round-Robin, registro DI y Tests con xUnit + Moq + FluentAssertions.</Description>
+    <PackageTags>template coordinator worker pattern dotnet csharp parallel distributed</PackageTags>
+    <TargetFramework>net8.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <NoBuild>true</NoBuild>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".template.config\**" />
+    <Content Include="src\**" />
+    <Content Include="AccioData29.CoordinatorWorker.sln" />
+    <Content Remove="**\bin\**" />
+    <Content Remove="**\obj\**" />
+  </ItemGroup>
+</Project>

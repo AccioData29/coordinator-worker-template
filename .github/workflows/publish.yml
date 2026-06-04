@@ -1,0 +1,92 @@
+name: Publish NuGet
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      skip_tests:
+        description: 'Omitir tests (solo emergencias)'
+        type: boolean
+        default: false
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore AccioData29.CoordinatorWorker.sln
+
+      - name: Build
+        run: dotnet build AccioData29.CoordinatorWorker.sln --no-restore -c Release
+
+      - name: Test
+        if: ${{ !inputs.skip_tests }}
+        run: dotnet test AccioData29.CoordinatorWorker.sln --no-build -c Release --logger "trx;LogFileName=results.trx"
+
+      - name: Upload test results
+        if: ${{ !inputs.skip_tests }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: '**/*.trx'
+
+  publish:
+    name: Pack & Publish
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Extract version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Pack
+        run: |
+          dotnet pack AccioData29.CoordinatorWorker.csproj \
+            -c Release \
+            -o ./nupkg \
+            /p:PackageVersion=${{ steps.version.outputs.VERSION }}
+
+      - name: Push to NuGet.org
+        if: ${{ secrets.NUGET_API_KEY != '' }}
+        run: |
+          dotnet nuget push ./nupkg/*.nupkg \
+            --api-key ${{ secrets.NUGET_API_KEY }} \
+            --source https://api.nuget.org/v3/index.json \
+            --skip-duplicate
+
+      - name: Push to GitHub Packages
+        run: |
+          dotnet nuget add source \
+            --username ${{ github.actor }} \
+            --password ${{ secrets.GITHUB_TOKEN }} \
+            --store-password-in-clear-text \
+            --name github \
+            "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
+          dotnet nuget push ./nupkg/*.nupkg \
+            --source github \
+            --skip-duplicate
+
+      - name: Upload package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nupkg
+          path: ./nupkg/*.nupkg

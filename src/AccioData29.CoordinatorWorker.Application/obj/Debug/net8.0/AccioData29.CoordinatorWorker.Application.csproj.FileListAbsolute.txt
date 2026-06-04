@@ -1,0 +1,16 @@
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Application.deps.json
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Application.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Application.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.csproj.AssemblyReference.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.AssemblyInfoInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.AssemblyInfo.cs
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.csproj.CoreCompileInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.sourcelink.json
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.csproj.CopyComplete
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\refint\AccioData29.CoordinatorWorker.Application.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Application.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\obj\Debug\net8.0\ref\AccioData29.CoordinatorWorker.Application.dll

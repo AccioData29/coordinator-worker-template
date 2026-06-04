@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AccioData29.CoordinatorWorkerTemplate</id>
+    <version>1.0.0</version>
+    <title>Coordinator-Worker Pattern .NET 8</title>
+    <authors>AccioData29</authors>
+    <description>dotnet new template: patrón Coordinator-Worker para .NET 8. Incluye Domain, Application con interfaces, CoordinatorService, estrategia Round-Robin, registro DI y Tests con xUnit + Moq + FluentAssertions.</description>
+    <tags>template coordinator worker pattern dotnet csharp parallel distributed</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository type="git" commit="98648d798db4bc6d8f3956d06eabb5f56f8619a5" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\.template.config\template.json" target="content\.template.config\template.json" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\AccioData29.CoordinatorWorker.Application.csproj" target="content\src\AccioData29.CoordinatorWorker.Application\AccioData29.CoordinatorWorker.Application.csproj" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Extensions\ServiceCollectionExtensions.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Extensions\ServiceCollectionExtensions.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\GlobalUsings.cs" target="content\src\AccioData29.CoordinatorWorker.Application\GlobalUsings.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Interfaces\ICoordinator.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Interfaces\ICoordinator.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Interfaces\IWorkDistributor.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Interfaces\IWorkDistributor.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Interfaces\IWorker.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Interfaces\IWorker.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Options\CoordinatorWorkerOptions.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Options\CoordinatorWorkerOptions.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Services\CoordinatorService.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Services\CoordinatorService.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Application\Strategies\RoundRobinDistributor.cs" target="content\src\AccioData29.CoordinatorWorker.Application\Strategies\RoundRobinDistributor.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\AccioData29.CoordinatorWorker.Domain.csproj" target="content\src\AccioData29.CoordinatorWorker.Domain\AccioData29.CoordinatorWorker.Domain.csproj" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\Entities\WorkItem.cs" target="content\src\AccioData29.CoordinatorWorker.Domain\Entities\WorkItem.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\Entities\WorkResult.cs" target="content\src\AccioData29.CoordinatorWorker.Domain\Entities\WorkResult.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\Enums\WorkerStatus.cs" target="content\src\AccioData29.CoordinatorWorker.Domain\Enums\WorkerStatus.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\Exceptions\NoAvailableWorkersException.cs" target="content\src\AccioData29.CoordinatorWorker.Domain\Exceptions\NoAvailableWorkersException.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\Exceptions\WorkerProcessingException.cs" target="content\src\AccioData29.CoordinatorWorker.Domain\Exceptions\WorkerProcessingException.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\GlobalUsings.cs" target="content\src\AccioData29.CoordinatorWorker.Domain\GlobalUsings.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Tests\AccioData29.CoordinatorWorker.Tests.csproj" target="content\src\AccioData29.CoordinatorWorker.Tests\AccioData29.CoordinatorWorker.Tests.csproj" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Tests\GlobalUsings.cs" target="content\src\AccioData29.CoordinatorWorker.Tests\GlobalUsings.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Tests\Helpers\WorkerMockHelper.cs" target="content\src\AccioData29.CoordinatorWorker.Tests\Helpers\WorkerMockHelper.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Tests\Services\CoordinatorServiceTests.cs" target="content\src\AccioData29.CoordinatorWorker.Tests\Services\CoordinatorServiceTests.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Tests\Strategies\RoundRobinDistributorTests.cs" target="content\src\AccioData29.CoordinatorWorker.Tests\Strategies\RoundRobinDistributorTests.cs" />
+    <file src="C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\AccioData29.CoordinatorWorker.sln" target="content\AccioData29.CoordinatorWorker.sln" />
+  </files>
+</package>

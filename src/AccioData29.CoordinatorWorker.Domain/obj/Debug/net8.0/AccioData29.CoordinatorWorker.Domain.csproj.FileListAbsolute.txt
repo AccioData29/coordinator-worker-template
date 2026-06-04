@@ -1,0 +1,12 @@
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.deps.json
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\bin\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.AssemblyInfoInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.AssemblyInfo.cs
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.sourcelink.json
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\refint\AccioData29.CoordinatorWorker.Domain.dll
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\AccioData29.CoordinatorWorker.Domain.pdb
+C:\Users\jairi\OneDrive\Documentos\Juliana\BTW\master-slave\src\AccioData29.CoordinatorWorker.Domain\obj\Debug\net8.0\ref\AccioData29.CoordinatorWorker.Domain.dll

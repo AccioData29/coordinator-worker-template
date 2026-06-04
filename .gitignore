@@ -1,0 +1,52 @@
+# Build output
+bin/
+obj/
+out/
+nupkg/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.coveragexml
+coverage*/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / env
+*.env
+*.env.*
+appsettings.*.json
+!appsettings.json
+secrets.json
