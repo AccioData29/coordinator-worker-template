@@ -4,11 +4,29 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>AccioData29.CoordinatorWorker.Application</RootNamespace>
+
+    <!-- NuGet package -->
+    <PackageId>AccioData29.CoordinatorWorker</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>AccioData29</Authors>
+    <Description>Implementación genérica del patrón Coordinator-Worker para .NET 8. Incluye distribución Round-Robin, soporte para CancellationToken e integración con el sistema de DI de .NET.</Description>
+    <PackageTags>coordinator-worker pattern dotnet csharp parallel distributed</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
   </ItemGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\AccioData29.CoordinatorWorker.Domain\AccioData29.CoordinatorWorker.Domain.csproj" />
+    <!-- PrivateAssets=all bundlea el Domain.dll dentro del paquete en vez de declararlo como dependencia -->
+    <ProjectReference Include="..\AccioData29.CoordinatorWorker.Domain\AccioData29.CoordinatorWorker.Domain.csproj">
+      <PrivateAssets>all</PrivateAssets>
+    </ProjectReference>
   </ItemGroup>
 </Project>

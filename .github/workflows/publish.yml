@@ -46,6 +46,8 @@ jobs:
     permissions:
       packages: write
       contents: read
+    env:
+      NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
 
     steps:
       - uses: actions/checkout@v4
@@ -60,16 +62,16 @@ jobs:
 
       - name: Pack
         run: |
-          dotnet pack AccioData29.CoordinatorWorker.csproj \
+          dotnet pack src/AccioData29.CoordinatorWorker.Application/AccioData29.CoordinatorWorker.Application.csproj \
             -c Release \
             -o ./nupkg \
             /p:PackageVersion=${{ steps.version.outputs.VERSION }}
 
       - name: Push to NuGet.org
-        if: ${{ secrets.NUGET_API_KEY != '' }}
+        if: ${{ env.NUGET_API_KEY != '' }}
         run: |
           dotnet nuget push ./nupkg/*.nupkg \
-            --api-key ${{ secrets.NUGET_API_KEY }} \
+            --api-key ${{ env.NUGET_API_KEY }} \
             --source https://api.nuget.org/v3/index.json \
             --skip-duplicate
 
