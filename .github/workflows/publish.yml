@@ -60,7 +60,7 @@ jobs:
 
       - name: Pack
         run: |
-          dotnet pack AccioData29.CoordinatorWorker.csproj \
+          dotnet pack src/AccioData29.CoordinatorWorker.Application/AccioData29.CoordinatorWorker.Application.csproj \
             -c Release \
             -o ./nupkg \
             /p:PackageVersion=${{ steps.version.outputs.VERSION }}
